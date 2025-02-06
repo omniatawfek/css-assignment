@@ -1,0 +1,15 @@
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #dddddd;
+    color: black;
+  }
+  .one {
+    background-color:rgb(221, 221, 221, .1);
+  }
+  .two {
+    opacity: .1;
+  }

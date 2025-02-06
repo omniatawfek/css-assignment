@@ -1,0 +1,13 @@
+.parent .child span {
+    color: red;
+}
+
+.parent .title {
+    color: blue;
+}
+
+.parent p ,
+.title {
+    color: green;
+}
+

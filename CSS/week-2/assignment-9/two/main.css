@@ -1,0 +1,14 @@
+div {
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 20px;
+    line-height: 1.6;
+    width: fit-content;
+    text-align: center;
+}
+div::first-letter {
+    color:white;
+    background-color: red;
+    padding: 13px 8px;
+    margin-left: -30px;
+}

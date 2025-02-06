@@ -1,0 +1,27 @@
+.parent {
+    width: 800px;
+    padding: 0px;
+    text-align: center;
+    background-color: #eee;
+}
+.parent div {
+    background-color: #ddd;
+    padding: 15px 0px;
+    float: left;
+    margin: 15px 0px 15px 15px;
+}
+.full {
+    width: calc(100% - 30px);
+}
+.third {
+    width: calc((100% - 60px) / 3);
+}
+.half {
+    width: calc((100% - 45px) / 2);
+}
+.forth {
+    width: calc((100% - 75px) / 4);
+}
+.clear {
+    clear: both;
+}

@@ -1,0 +1,38 @@
+table {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px solid rgb(23, 161, 156);
+}
+caption {
+    padding: 10px;
+    font-weight: bold;
+}
+thead {
+    color: white;
+    background-color: rgba(22, 21, 21, 0.753);
+    font-weight: bold;
+    td {
+        padding: 10px;
+    }
+ }
+tbody {
+    background-color: #eee;
+    td {
+        padding: 25px;
+    }
+} 
+img {
+    width: 50px;
+}
+button {
+    color: white;
+    border: none;
+    padding: 5px 8px;
+}
+.blue {
+    background-color: rgb(36, 132, 196);
+}
+.red {
+    background-color: rgb(222, 63, 111);
+}

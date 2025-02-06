@@ -1,0 +1,63 @@
+.parent {
+    width: 550px;
+    height:300px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.child {
+    width: calc(50% - 50px);
+    height: 280px;
+    background-color: #eee;
+    position: absolute;
+}
+.first {
+    top: 10px;
+    left: 15px;
+}
+.second {
+    top: 10px;
+    right: 15px;
+}
+.circle {
+    background-color: #ddd;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+   font-size: 40px;
+   line-height: 180px;
+}
+button {
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 128, 255);
+    font-weight: bold;
+    width: 80%;
+    border: none;
+    border-radius:8px;
+}
+.first::before {
+    content: " ";
+    width: 1px;
+    height: 280px;
+    background-color: rgb(0, 128, 255);
+    position: absolute;
+    top: 0;
+    left: 115%;
+}
+.first::after {
+    content: "Or";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color:rgb(0, 128, 255) ;
+    position: absolute;
+    top:50%;
+    left: 110%;
+}
