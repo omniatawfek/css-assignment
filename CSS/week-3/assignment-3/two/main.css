@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+input {
+    display:block ;
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eee;
+    caret-color: red;
+    border: none;
+    outline: none;
+    position: relative;
+}
+div {
+    position: relative;
+    width: 600px;
+    margin: 20px auto;
+}
+div::before {
+    content: " ";
+    position: absolute;
+    width:600px;
+    height: 5px;
+    bottom: -5px;
+    left:0px;
+    background: linear-gradient(to right,red 50%,green 50%);
+}
